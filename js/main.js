@@ -14,7 +14,7 @@ function setup(){
   scene.add(camera)
 
 //hemisphere light
-  const light = new THREE.HemisphereLight(0x8F6BFF, 0x8F6BFF, 10)
+  const light = new THREE.HemisphereLight(0x8F6BFF, 0x8F6BFF, 5)
   scene.add(light)
 
 //ground
